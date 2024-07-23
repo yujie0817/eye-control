@@ -1,0 +1,7 @@
+main_window:
+  wrning: wrning
+  leave: Confirm exit？
+  main_button: ./img/Main.png
+  setting_button: ./img/Setting_n.png
+  above_button: ./img/about.png
+

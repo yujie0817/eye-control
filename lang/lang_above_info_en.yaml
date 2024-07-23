@@ -1,0 +1,29 @@
+above_info_window:
+  above_window_title: above
+  above_label: Wearable eye tracking system
+  info_window_title: User information
+  first_label: Please fill in the information
+  id_label: number
+  id_edit: enter the number
+  name_label: name
+  name_edit: enter the name
+  type_label: type
+  type_edit: enter the subject type
+  type_he: healthy
+  type_de: depressed
+  gender_label: gender
+  gender_edit: enter the gender
+  gender_male: male
+  gender_female: female
+  main_name_label: main_name
+  main_name_edit: enter the name of the host
+  save_button: save
+  QMessageBox: Saved successfully
+  copyright: copyright
+  copyright_label: Copyright © 2021
+  hardware: Hardware
+  hardware_label: v 0.1
+  software: System
+  software_label: v 1.1
+  website: website
+  website_label: http://uais.lzu.edu.cn/

@@ -1,0 +1,6 @@
+main_window:
+  wrning: 警告
+  leave: 确认退出？
+  main_button: ./img/主页.png
+  setting_button: ./img/设置.png
+  above_button: ./img/关于.png

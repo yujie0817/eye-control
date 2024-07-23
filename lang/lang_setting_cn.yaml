@@ -1,0 +1,21 @@
+setting_window:
+  window_title: 设置
+  left_eye_setting_label: 左眼摄像头设置
+  right_eye_setting_label: 右眼摄像头设置
+  face_setting_label: 表情摄像头设置
+  world_setting_label: 全景摄像头设置
+  fps_label: 帧数设置
+  bright_label: 图像亮度
+  contrast_label: 图像对比度
+  saturation_label: 图像饱和度
+  sharpness_label: 图像锐化度
+  gain_label: 图像增益
+  annother_setting_label: 其他通用设置
+  language_label: 语言选择
+  recovery_button: 恢复
+  save_button: 保存
+  QMessageBox: 保存成功
+  left_eye_fps_215: 215
+  left_eye_fps_108: 108
+  right_eye_fps_215: 215
+  right_eye_fps_108: 108

@@ -1,0 +1,71 @@
+devices:
+  cameras:
+    face_capture:
+      camera_fps: 15
+      fps: 15
+      frame_height: 720
+      frame_width: 960
+      gain: 0
+      brightness: 128
+      name: face_capture
+      v4l2_name: LRCP
+    left_eye_capture:
+      camera_fps: 20
+      fps: 400
+      frame_height: 240
+      frame_width: 320
+      gain: 5
+      brightness: -10
+      name: left_eye_capture
+      v4l2_name: Camera_L
+    right_eye_capture:
+      camera_fps: 20
+      fps: 400
+      frame_height: 240
+      frame_width: 320
+      gain: 5
+      brightness: -10
+      name: right_eye_capture
+      v4l2_name: Camera_R
+    world_capture:
+      camera_fps: 15
+      fps: 30
+      frame_height: 1080
+      frame_width: 1920
+      gain: 0
+      brightness: 60
+      name: world_capture
+      v4l2_name: USB2.0 camera
+display_fps: 20
+location:
+  face_capture_display_frame:
+    - 1330
+    - 373
+  left_eye_capture_display_frame:
+    - 1330
+    - 180
+  right_eye_capture_display_frame:
+    - 1595
+    - 180
+  world_capture_display_frame:
+    - 20
+    - 180
+path:
+  paradigm_video_path: /normal_form/test.mp4
+  record_save_path: recording
+resolution_ratio:
+  face_capture_display_frame:
+    - 521
+    - 300
+  left_eye_capture_display_frame:
+    - 258
+    - 188
+  mainwindow:
+    - 1920
+    - 1080
+  right_eye_capture_display_frame:
+    - 258
+    - 188
+  world_capture_display_frame:
+    - 1300
+    - 800

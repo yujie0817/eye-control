@@ -1,0 +1,29 @@
+above_info_window:
+  above_window_title: 关于
+  above_label: 可穿戴眼动追踪系统
+  info_window_title: 用户信息
+  first_label: 请按要求填写被试信息
+  id_label: 编号
+  id_edit: 请输入被试编号
+  name_label: 姓名
+  name_edit: 请输入被试姓名
+  type_label: 被试类型
+  type_edit: 请输入被试类型
+  type_he: 健康
+  type_de: 抑郁
+  gender_label: 被试性别
+  gender_edit: 请输入被试性别，男/女
+  gender_male: 男
+  gender_female: 女
+  main_name_label: 主试姓名
+  main_name_edit: 请输入主试姓名
+  save_button: 保存
+  QMessageBox: 保存成功
+  copyright: 版权
+  copyright_label: Copyright © 2021
+  hardware: 硬件版本
+  hardware_label: v 0.1
+  software: 系统版本
+  software_label: v 1.1
+  website: 网址
+  website_label: http://uais.lzu.edu.cn/

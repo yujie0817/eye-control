@@ -1,0 +1,21 @@
+setting_window:
+  window_title: setting
+  left_eye_setting_label: Left camera setting
+  right_eye_setting_label: right camera setting
+  face_setting_label: face camera setting
+  world_setting_label: world camera setting
+  fps_label: Frame setting
+  bright_label: Image brightness
+  contrast_label: Image contrast
+  saturation_label: Image Saturation
+  sharpness_label: Image sharpness
+  gain_label: Image gain
+  annother_setting_label: Another setting
+  language_label: language select
+  recovery_button: recovery
+  save_button: save
+  QMessageBox: save success
+  left_eye_fps_215: 215
+  left_eye_fps_108: 108
+  right_eye_fps_215: 215
+  right_eye_fps_108: 108

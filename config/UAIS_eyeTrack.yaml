@@ -1,0 +1,61 @@
+devices:
+  cameras:
+    face_capture:
+      camera_fps: 20
+      flag: -1
+      fps: 25
+      frame_height: 480
+      frame_width: 640
+      gain: 0
+      label_height: 480
+      label_width: 640
+      locationx: 1000
+      locationy: 200
+      name: face_capture
+      v4l2_name:
+        - LRCP  USB2.0
+        - Logitech BRIO
+        - USB2.0 PC CAMERA
+    left_eye_capture:
+      camera_fps: 20
+      flag: 1
+      fps: 215
+      frame_height: 258
+      frame_width: 188
+      gain: 40
+      label_height: 258
+      label_width: 188
+      location_x: 1340
+      location_y: 180
+      name: left_eye_capture
+      v4l2_name:
+        - eye_camera0
+    right_eye_capture:
+      camera_fps: 20
+      flag: 2
+      fps: 215
+      frame_height: 258
+      frame_width: 188
+      gain: 40
+      label_height: 258
+      label_width: 188
+      location_x: 1610
+      location_y: 180
+      name: right_eye_capture
+      v4l2_name:
+        - eye_camera1
+    world_capture:
+      camera_fps: 20
+      flag: 0
+      fps: 30
+      frame_height: 1300
+      frame_width: 800
+      gain: 0
+      label_height: 1300
+      label_width: 800
+      location_x: 20
+      location_y: 180
+      name: world_capture
+      v4l2_name:
+        - AUKEY PC_W1
+        - USB 2.0 Camera

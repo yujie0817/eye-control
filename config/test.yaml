@@ -1,0 +1,59 @@
+devices:
+  cameras:
+    face_capture:
+      camera_fps: 25
+      flag: -1
+      fps: 25
+      frame_height: 480
+      frame_width: 640
+      gain: 48
+      label_height: 200
+      label_width: 200
+      locationx: 1000
+      locationy: 200
+      name: face_capture
+      v4l2_name:
+        - LRCP  USB2.0
+    left_eye_capture:
+      camera_fps: 150
+      flag: 1
+      fps: 215
+      frame_height: 200
+      frame_width: 200
+      gain: 64
+      label_height: 200
+      label_width: 200
+      location_x: 1340
+      location_y: 180
+      name: left_eye_capture
+      v4l2_name:
+        - eye_camera0
+    right_eye_capture:
+      camera_fps: 150
+      flag: 2
+      fps: 215
+      frame_height: 200
+      frame_width: 200
+      gain: 10
+      label_height: 200
+      label_width: 200
+      location_x: 1610
+      location_y: 180
+      name: right_eye_capture
+      v4l2_name:
+        - eye_camera1
+    world_capture:
+      camera_fps: 30
+      flag: 0
+      fps: 30
+      frame_height: 2000
+      frame_width: 1000
+      gain: 64
+      label_height: 200
+      label_width: 200
+      location_x: 20
+      location_y: 180
+      name: world_capture
+      v4l2_name:
+        - AUKEY PC_W1
+        - USB 2.0 Camera
